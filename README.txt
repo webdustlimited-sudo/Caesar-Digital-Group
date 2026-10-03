@@ -1,4 +1,4 @@
-WEB DUST LIMITED WEBSITE
+CAESAR DIGITAL GROUP WEBSITE
 ==========================
 
 Files:
@@ -8,16 +8,15 @@ Files:
 - apps.html — app development
 - about.html — about / meet the CEO / FAQ
 - contact.html — contact and WhatsApp enquiry form
-- assets/logo.png — supplied Web Dust Limited logo
+- assets/caesar-logo.jpeg — supplied Caesar Digital Group logo
 - assets/ceo.jpeg — supplied CEO photo
-- assets/ceo-full.jpg — supplied full-body CEO photo
 - assets/styles.css — shared design and animations
 - assets/site.js — mobile navigation and scroll reveal
 
 FEATURES:
 - Multi-page navigation (not a single-page scroll)
 - Logo and CEO photos supplied by the client
-- Blue/navy theme matched to the logo
+- Navy, blue and cyan theme matched to the Caesar Digital Group logo
 - Scroll reveal animation
 - Shaking contact bar
 - Animated WhatsApp floating button on the home page and throughout the site

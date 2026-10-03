@@ -1,8 +1,8 @@
 
 :root{
-  --blue:#0065f7;
-  --blue2:#0086ff;
-  --navy:#001757;
+  --blue:#0079ed;
+  --blue2:#00b7df;
+  --navy:#06234f;
   --ink:#07162f;
   --muted:#5e6c86;
   --line:#dce7f7;
@@ -25,21 +25,21 @@ img{max-width:100%;display:block}
 .topbar a{color:#fff;font-weight:700}
 header{
   position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);
-  backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,101,247,.08)
+  backdrop-filter:blur(14px);border-bottom:1px solid rgba(0,121,237,.08)
 }
 .nav{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{width:158px;height:auto}
 .navlinks{display:flex;align-items:center;gap:8px;list-style:none}
 .navlinks a{padding:11px 13px;border-radius:12px;font-weight:750;font-size:.94rem;color:#233354}
 .navlinks a:hover,.navlinks a.active{background:#edf5ff;color:var(--blue)}
-.nav-cta{background:linear-gradient(135deg,var(--blue),var(--blue2))!important;color:#fff!important;box-shadow:0 9px 25px rgba(0,101,247,.24)}
+.nav-cta{background:linear-gradient(135deg,var(--blue),var(--blue2))!important;color:#fff!important;box-shadow:0 9px 25px rgba(0,121,237,.24)}
 .menu{display:none;border:0;background:var(--soft);font-size:1.4rem;padding:10px;border-radius:12px;color:var(--navy)}
 .hero{position:relative;overflow:hidden;padding:86px 0 74px;background:
- radial-gradient(circle at 82% 20%,rgba(0,134,255,.14),transparent 30%),
+ radial-gradient(circle at 82% 20%,rgba(0,183,223,.14),transparent 30%),
  linear-gradient(180deg,#fff 0%,#f5f9ff 100%)}
 .hero-grid{display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:56px}
 .eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border-radius:99px;background:#eaf4ff;color:var(--blue);font-weight:800;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase}
-.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 6px rgba(0,101,247,.1)}
+.eyebrow:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--blue);box-shadow:0 0 0 6px rgba(0,121,237,.1)}
 h1{font-size:clamp(2.65rem,6vw,5.25rem);line-height:1.02;letter-spacing:-.055em;margin:20px 0}
 h1 span,.gradient{background:linear-gradient(100deg,var(--navy),var(--blue),var(--blue2));-webkit-background-clip:text;background-clip:text;color:transparent}
 h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.04em;margin:10px 0 18px}
@@ -48,7 +48,7 @@ h3{font-size:1.22rem;line-height:1.25;margin-bottom:9px}
 .btns{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:14px;font-weight:800;border:1px solid var(--line);transition:.2s}
 .btn:hover{transform:translateY(-2px)}
-.btn.primary{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border-color:transparent;box-shadow:0 13px 30px rgba(0,101,247,.23)}
+.btn.primary{background:linear-gradient(135deg,var(--blue),var(--blue2));color:#fff;border-color:transparent;box-shadow:0 13px 30px rgba(0,121,237,.23)}
 .btn.secondary{background:#fff;color:var(--navy)}
 .hero-photo{position:relative}
 .hero-photo:before{content:"";position:absolute;inset:25px -22px -25px 24px;background:linear-gradient(135deg,#dceeff,#f7fbff);border-radius:40px;transform:rotate(3deg)}
@@ -79,7 +79,7 @@ h3{font-size:1.22rem;line-height:1.25;margin-bottom:9px}
 .check b{display:block}
 .check p{color:var(--muted);font-size:.93rem}
 .checkmark{flex:0 0 27px;width:27px;height:27px;border-radius:50%;background:#e9f5ff;color:var(--blue);display:grid;place-items:center;font-weight:900}
-.page-hero{padding:74px 0 58px;background:linear-gradient(135deg,#001757,#0065f7);color:#fff;position:relative;overflow:hidden}
+.page-hero{padding:74px 0 58px;background:linear-gradient(135deg,#06234f,#0079ed);color:#fff;position:relative;overflow:hidden}
 .page-hero:after{content:"";position:absolute;width:420px;height:420px;border:80px solid rgba(255,255,255,.08);border-radius:50%;right:-130px;top:-180px}
 .page-hero p{max-width:730px;color:#dfeaff}
 .page-hero h1{font-size:clamp(2.6rem,5vw,4.5rem);margin:10px 0 12px;color:#fff}
@@ -90,7 +90,7 @@ h3{font-size:1.22rem;line-height:1.25;margin-bottom:9px}
 .step{display:grid;grid-template-columns:60px 1fr;gap:20px;padding:20px 0;border-bottom:1px solid var(--line)}
 .step:last-child{border-bottom:0}
 .step-num{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:900}
-.quote{background:linear-gradient(135deg,#001757,#005fe8);color:#fff;border-radius:30px;padding:45px}
+.quote{background:linear-gradient(135deg,#06234f,#0079ed);color:#fff;border-radius:30px;padding:45px}
 .quote p{font-size:1.35rem;line-height:1.45}
 .quote small{display:block;margin-top:18px;color:#dbe9ff}
 .ceo{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center}
@@ -105,9 +105,9 @@ h3{font-size:1.22rem;line-height:1.25;margin-bottom:9px}
 .whatsapp-float{position:fixed;left:18px;bottom:18px;z-index:70;width:62px;height:62px;border-radius:50%;display:grid;place-items:center;background:#25D366;color:#fff;box-shadow:0 12px 30px rgba(37,211,102,.35);animation:dance 1.6s ease-in-out infinite}
 .whatsapp-float svg{width:31px;height:31px}
 @keyframes dance{0%,100%{transform:translateY(0) rotate(-5deg)}25%{transform:translateY(-7px) rotate(7deg)}50%{transform:translateY(0) rotate(-5deg)}75%{transform:translateY(-5px) rotate(5deg)}}
-footer{background:#00113d;color:#dce8ff;padding:55px 0 28px}
+footer{background:#06234f;color:#dce8ff;padding:55px 0 28px}
 .footer-grid{display:grid;grid-template-columns:1.2fr .8fr .8fr 1fr;gap:35px}
-footer .logo{filter:brightness(0) invert(1);opacity:.96;margin-bottom:15px}
+footer .logo{width:132px;height:132px;object-fit:contain;background:#fff;border-radius:14px;padding:6px;margin-bottom:15px}
 footer h3{color:#fff;font-size:1rem}
 footer a:hover{color:#fff}
 .footer-links{display:grid;gap:8px;font-size:.92rem}
@@ -121,7 +121,7 @@ details p{color:var(--muted);padding:12px 25px 0 0}
 .form{display:grid;gap:15px}
 label{font-weight:750;font-size:.9rem}
 input,textarea,select{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:13px;background:#fff;font:inherit;color:var(--ink);outline:none}
-input:focus,textarea:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(0,101,247,.08)}
+input:focus,textarea:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 4px rgba(0,121,237,.08)}
 textarea{min-height:145px;resize:vertical}
 .reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s ease}
 .reveal.visible{opacity:1;transform:none}
@@ -141,3 +141,18 @@ textarea{min-height:145px;resize:vertical}
   .contact-bar{right:12px;bottom:12px}.whatsapp-float{left:12px;bottom:12px;width:56px;height:56px}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none}.contact-bar,.whatsapp-float{animation:none}}
+
+/* Caesar Digital Group branding and photo layout. */
+.nav>a:first-child{display:flex;align-items:center;flex-shrink:0}.nav .logo{width:104px;height:104px;object-fit:contain}.ceo-summary{max-width:850px}.ceo-summary .lead{max-width:none}@media(max-width:600px){.nav .logo{width:88px;height:88px}}
+/* Readable logo colors and compact spacing above the home footer. */
+:root{--blue:#0064c9;--action-end:#005cae}
+.btn.primary,.nav-cta{background:linear-gradient(135deg,var(--blue),var(--action-end))!important}
+.hero h1 span,.gradient{background-image:linear-gradient(100deg,var(--navy),var(--blue),#007a99)}
+body.home main>.section:last-child{padding:42px 0}
+body.home main>.section:last-child .reveal{opacity:1;transform:none}
+@media(max-width:900px){.navlinks{top:100%}}
+@media(max-width:600px){
+  .stat{padding:16px;min-width:0;overflow-wrap:break-word}
+  body.home main>.section:last-child{padding:30px 0}
+  .quote{padding:28px}
+}
