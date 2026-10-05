@@ -1,4 +1,4 @@
-CAESAR DIGITAL GROUP WEBSITE
+EXAGGERATE LTD WEBSITE
 ==========================
 
 Files:
@@ -8,7 +8,7 @@ Files:
 - apps.html — app development
 - about.html — about / meet the CEO / FAQ
 - contact.html — contact and WhatsApp enquiry form
-- assets/caesar-logo.jpeg — supplied Caesar Digital Group logo
+- assets/exaggerate-logo.jpeg — supplied Exaggerate Ltd logo
 - assets/ceo.jpeg — supplied CEO photo
 - assets/styles.css — shared design and animations
 - assets/site.js — mobile navigation and scroll reveal
@@ -16,7 +16,7 @@ Files:
 FEATURES:
 - Multi-page navigation (not a single-page scroll)
 - Logo and CEO photos supplied by the client
-- Navy, blue and cyan theme matched to the Caesar Digital Group logo
+- Navy, blue and cyan theme matched to the Exaggerate Ltd logo
 - Scroll reveal animation
 - Shaking contact bar
 - Animated WhatsApp floating button on the home page and throughout the site
