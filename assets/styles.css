@@ -142,7 +142,7 @@ textarea{min-height:145px;resize:vertical}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none}.contact-bar,.whatsapp-float{animation:none}}
 
-/* Caesar Digital Group branding and photo layout. */
+/* Exaggerate Ltd branding and photo layout. */
 .nav>a:first-child{display:flex;align-items:center;flex-shrink:0}.nav .logo{width:104px;height:104px;object-fit:contain}.ceo-summary{max-width:850px}.ceo-summary .lead{max-width:none}@media(max-width:600px){.nav .logo{width:88px;height:88px}}
 /* Readable logo colors and compact spacing above the home footer. */
 :root{--blue:#0064c9;--action-end:#005cae}
